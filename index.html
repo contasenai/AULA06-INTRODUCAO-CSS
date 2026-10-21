@@ -17,66 +17,65 @@
             <a href="#ingressos">Ingressos</a>
         </nav>
     </header>
-    <main>
-        <section id="destaque">
-            <article>
-                <h2>
+    <main style="max-width: 900px; margin: 28px auto; padding: 0 18px;">
+        <section id="destaque" style="margin-bottom: 32px;">
+            <article style="background-color: #1e293b; padding: 24px; border: 1px solid #334155; border-radius: 14px;">
+                <h2 style="margin-top: 0; color: #38bdf8; font-size: 24px;">
                     Filme da Semana:
                     Desventuras do Coelho Jorge
                 </h2>
-                <video controls>
+                <video controls style="width: 100%; max-height: 360px; border-radius: 10px;background-color: #0F172A; border: 1px solid #475569;">
                     <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"
                 </video>
             </article>
         </section>
-        <section id="horarios">
-            <h2>Tabela de Sessões e Preços</h2>
-            <table border="1">
+        <section id="horarios" style="margin-bottom: 32px;">
+            <h2 style="color: #f8fafc; font-size: 22px; margin-bottom: 14px;">Tabela de Sessões e Preços</h2>
+            <table border="1" style="width: 100%; border-collapse:collapse; background-color: #1e293b; border-radius: 10px; ">
                 <thead>
-                    <tr>
-                        <th>sala</th>
-                        <th>Formato</th>
-                        <th>Horarios</th>
-                        <th>Valor</th>
+                    <tr style="background-color: #0284c7; color: #ffffff; text-align: center;">
+                        <th style="padding: 14px; border: 1px solid #334155;">sala</th>
+                        <th style="padding: 14px; border: 1px solid #334155">Formato</th>
+                        <th style="padding: 14px; border: 1px solid #334155">Horarios</th>
+                        <th style="padding: 14px; border: 1px solid #334155">Valor</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Sala 01</td>
-                        <td>IMAX 3D</td>
-                        <td>19:30</td>
-                        <td>36,00</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155">Sala 01</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155">IMAX 3D</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155">19:30</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155">36,00</td>
                     </tr>
                     <tr>
-                        <td>Sala 02</td>
-                        <td>VIP 2D Dublado</td>
-                        <td>20:45</td>
-                        <td>28,00</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155">Sala 02</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155">VIP 2D Dublado</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155">20:45</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155">28,00</td>
                     </tr>
                 </tbody>
             </table>
         </section>
-        <aside id="promocao">
-                <p>
+        <aside id="promocao" style="background-color: #1e293b; border-left: 6px solid #f59e0b; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
+                <p style="margin: 0; line-height: 1.5; color: #fde68a;">
                     Promoção da Semana: <b>Toda terça e quarta-feira
                     meia entrada</b>
                 </p>
             </aside>
-            <section id="ingressos">
+            <section id="ingressos" style="background-color: #1e293b; padding: 24px; border: 1px solid #334155;">
                 <h2>Garanta seu Ingressos</h2>
                 <form action="#" method="">
 
 
-                    <label for="">Nome Completo:</label>
-                    <input type="text" id="nome_completo"
-                     name="nome_completo"placeholder="Informe seu nome completo">
+                    <label style="display: block; margin-bottom: 6px; font-weight: bold; color: #cbd5e1;" for="nome_completo" >Nome Completo: </label>
+                    <input type="text" id="nome_completo"name="nome_completo"placeholder="Informe seu nome completo" required style="width: 100%; padding: 11px; margin-bottom: 6px; border: 1px solid #475569; background-color: #ffffff;">
 
-                     <label for="email">Informe seu email</label>
-                     <input type="email" id="email" name="email" placeholder="Informe seu E-mail" required>
+                     <label style="display: block; margin-bottom: 6px; font-weight: bold; color: #cbd5e1;" for="email">Informe seu email</label>
+                     <input type="email" id="email" name="email" placeholder="Informe seu E-mail" required style="width: 100%; padding: 11px; margin-bottom: 6px; border: 1px solid #475569; background-color: #ffffff;">
 
-                    <label for="quantidade">Quantidade</label>
-                     <input type="number" id="quantidade" name="quantidade" placeholder="Informe quantidade de ingressos" required>
-                     <button type="submit">Confirmar compras de ingressos</button>
+                    <label style="display: block; margin-bottom: 6px; font-weight: bold; color: #cbd5e1;" for="quantidade">Quantidade</label>
+                     <input type="number" id="quantidade" name="quantidade" placeholder="Informe quantidade de ingressos" required style="width: 100%; padding: 11px; margin-bottom: 6px; border: 1px solid #475569; background-color: #ffffff;">
+                     <button style="background-color: #10b981; color: #052e16; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer;" type="submit">Confirmar compras de ingressos</button>
                 </form>
             </section>
     </main>
